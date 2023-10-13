@@ -7,7 +7,7 @@ import android.view.View
 import com.example.crystalball.databinding.ActivityMainBinding
 import kotlin.math.ceil
 
-class CrystalBallModel(private val context: Context, private val binding: ActivityMainBinding) {
+class CrystalBallModel(context: Context, private val binding: ActivityMainBinding) {
     private var timer: CountDownTimer? = null
     private val crystalBallController = CrystalBallController(context)
     private val delayFinish: Long = 1000L
